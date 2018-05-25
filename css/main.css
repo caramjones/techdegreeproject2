@@ -1,9 +1,12 @@
-font-family: 'Sunflower', sans-serif;
+
 
 /* =================================
   Base Element Styles
 ==================================== */
+ body {
+     font-family: 'Tajawal', sans-serif;
 
+ }
 
 
 /* =================================
