@@ -3,19 +3,68 @@
 /* =================================
   Base Element Styles
 ==================================== */
+* {
+    box-sizing: border-box;
+}
+
  body {
-     font-family: 'Tajawal', sans-serif;
+     font-family: 'Raleway', sans-serif;
+     background-color: #fafafa;
+     text-align: center;
+     padding: 15px;
 
  }
 
+.main-header, .title, h3 {
+    font-weight: bolder;
+}
+
+.main-nav, .gallery {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-nav a {
+    text-align: center;
+    display: block;
+    padding: 15px 15px; /*   makes name and navigation links hover targets taller and wider. Easier to click*/
+    background-color: white;
+    margin: 5px;
+    text-transform: uppercase;
+
+}
+
+a {
+    color: #494540;
+    text-decoration: none;
+
+}
+
+.profile-image {
+    width: 62.5%;
+
+}
+
+ul.gallery img {
+    width: 100%;
+}
 
 /* =================================
   Base Layout Styles
 ==================================== */
 
-
-
 /* ---- Navigation ---- */
+
+
+
+
+}
+
+.name {
+    margin-top: 0;
+    padding-top: 25px;
+
+}
 
 /* ---- Page Elements ---- */
 
