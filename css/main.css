@@ -11,8 +11,11 @@
      font-family: 'Raleway', sans-serif;
      background-color: #fafafa;
      text-align: center;
-     padding: 15px;
 
+ }
+
+ .main-header, .profile-image, .student-intro, .footer {
+     padding: 15px;
  }
 
 .main-header, .title, h3 {
@@ -45,10 +48,44 @@ a {
 
 }
 
+.portfolio {
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+}
+
 ul.gallery img {
     width: 100%;
 }
 
+h2 {
+    text-transform: uppercase;
+    padding: 35px 0;
+    margin-bottom: 0;
+}
+
+p {
+    line-height: 25px;
+}
+
+.footer {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.prologue {
+    border-bottom: #77736f solid 1px;
+}
+
+.epi-name {
+    float: left;
+}
+
+.top {
+    float: right;
+    margin-top: 23px;
+}
 /* =================================
   Base Layout Styles
 ==================================== */
