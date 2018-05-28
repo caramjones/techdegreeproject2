@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Responsive Images</title>
         <link rel="stylesheet" href="css/normalize.css" />
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css" />
         <script src="js/picturefill.min.js" async></script>
     </head>
@@ -17,10 +17,10 @@
                     <li><a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -32,7 +32,7 @@
                 </p>
             </div>
             <div class="portfolio">
-                <h2 class="title"> PORTFOLIO </h2>
+                <h2 class="title" id="portfolio"> PORTFOLIO </h2>
                 <ul class="gallery">
                     <li>
                         <img src="responsive_layout_v2.0/images/portfolio-1.png" alt="Marketing Page layout design">
@@ -46,8 +46,8 @@
                     </li>
                     <li>
                         <img src="responsive_layout_v2.0/images/portfolio-3.png" alt="Travel App layout design">
-                        <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
                         <h3>Travel App</h3>
+                        <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
                     </li>
                     <li>
                         <img src="responsive_layout_v2.0/images/portfolio-4.png" alt="Map of Favorite Spots layout design">
@@ -56,8 +56,8 @@
                     </li>
                     <li>
                         <img src="responsive_layout_v2.0/images/portfolio-5.png" alt="Photo Gallery layout design">
-                        <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
                         <h3>Photo Gallery</h3>
+                        <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
                     </li>
                     <li>
                         <img src="responsive_layout_v2.0/images/portfolio-6.png" alt="Calculator layout design">
@@ -66,20 +66,21 @@
                     </li>
                 </ul>
             </div>
-        </main>
-        <footer class="footer">
-            <div class="prologue">
-            <h2>Contact</h2>
-            <p>
-                If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
-            </p>
-                <p>Phone </p>
-                <br>
-                <p>Email <a href="mailto:email@yoursite.com">email@yoursite.com</a> </p>
+            <div class="contact" id="contact">
+                <h2>Contact</h2>
+                <p>
+                    If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
+                </p>
+                <ul class="contact-list">
+                    <li>Phone <a class="bold"href="tel:11115551234">+1(111)555-1234</a></li>
+                    <li>Email <a class="bold"href="mailto:email@yoursite.com">email@yoursite.com</a></li>
+                </ul>
             </div>
+        </main>
+        <footer class="footer clearfix">
             <div class="footer-nav">
-                <h3 class="epi-name">Student name</h3>
-                <a class="top" href="#">Back to top</a>
+                <h3 class="footer-name">Cody Wrighter</h3>
+                <a class="top bold" href="#">Back to top</a>
             </div>
         </footer>
 

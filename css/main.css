@@ -8,21 +8,31 @@
 }
 
  body {
-     font-family: 'Raleway', sans-serif;
+     font-family: 'Roboto', sans-serif;
      background-color: #fafafa;
      text-align: center;
+     color: #4a4a4a;
+     font-size: 18px;
+
 
  }
 
- .main-header, .profile-image, .student-intro, .footer {
+ .main-header,
+ .student-intro,
+ .footer,
+ .contact {
      padding: 15px;
  }
 
-.main-header, .title, h3 {
-    font-weight: bolder;
+.main-header,
+.title,
+h3 {
+    font-weight: bold;
 }
 
-.main-nav, .gallery {
+.main-nav,
+.gallery,
+.contact-list {
     list-style-type: none;
     padding: 0;
 }
@@ -34,11 +44,10 @@
     background-color: white;
     margin: 5px;
     text-transform: uppercase;
-
 }
 
 a {
-    color: #494540;
+    color: #4a4a4a;
     text-decoration: none;
 
 }
@@ -48,11 +57,17 @@ a {
 
 }
 
+
 .portfolio {
     background-color: white;
     width: 100%;
     padding: 15px;
 }
+
+.title {
+    margin-top: 0;
+}
+
 
 ul.gallery img {
     width: 100%;
@@ -66,6 +81,7 @@ h2 {
 
 p {
     line-height: 25px;
+    color: #7F7F7F;
 }
 
 .footer {
@@ -74,17 +90,27 @@ p {
     text-align: center;
 }
 
-.prologue {
-    border-bottom: #77736f solid 1px;
+.footer-nav {
+    border-top: #e7e7e7 solid 1px;
 }
 
-.epi-name {
+.footer-name {
     float: left;
+}
+
+.contact-list,
+.contact-list a  {
+    color: #7F7F7F;
 }
 
 .top {
     float: right;
     margin-top: 23px;
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
 }
 /* =================================
   Base Layout Styles
@@ -93,9 +119,6 @@ p {
 /* ---- Navigation ---- */
 
 
-
-
-}
 
 .name {
     margin-top: 0;
