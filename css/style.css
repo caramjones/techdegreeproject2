@@ -1,0 +1,234 @@
+/* =================================
+  Base Element Styles
+==================================== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+  text-align: center;
+  color: #4a4a4a;
+  font-size: 18px;
+}
+
+.main-header,
+.student-intro,
+.footer,
+.contact {
+  padding: 15px;
+}
+
+main, header, footer {
+  max-width: 964px;
+  margin: 0 auto;
+}
+
+.main-header,
+.title,
+h3 {
+  font-weight: bold;
+}
+
+.main-nav,
+.gallery,
+.contact-list,
+.footer-nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav a {
+  text-align: center;
+  display: block;
+  padding: 15px 15px; /*   makes name and navigation links hover targets taller and wider. Easier to click*/
+  background-color: white;
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+.profile-image {
+  width: 62.5%;
+}
+
+.portfolio {
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+}
+
+.title {
+  margin-top: 0;
+}
+
+ul.gallery img {
+  width: 100%;
+}
+
+h2 {
+  text-transform: uppercase;
+  padding: 35px 0;
+  margin-bottom: 0;
+}
+
+p {
+  line-height: 25px;
+  color: #7F7F7F;
+}
+
+.footer {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-nav {
+  border-top: #e7e7e7 solid 1px;
+}
+
+.footer-name {
+  float: left;
+}
+
+.contact-list li {
+  margin: 15px 0;
+}
+
+.contact-list,
+.contact-list a {
+  color: #7F7F7F;
+}
+
+.top {
+  float: right;
+  margin-top: 23px;
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.footer-nav a {
+  display: none;
+}
+
+.footer-nav a.top {
+  display: block;
+}
+
+.name {
+  margin-top: 0;
+  padding-top: 25px;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+  .main-nav li {
+    display: inline-block;
+  }
+
+  .main-nav a {
+    background-color: transparent;
+  }
+
+  .student-intro {
+    text-align: left;
+    margin: 0 30px;
+    padding: 0;
+    line-height: 1.5;
+  }
+
+  .profile-image {
+    float: right;
+    width: 37.5%;
+    margin: 0 30px;
+    padding: 0;
+  }
+
+  .intro {
+    margin-bottom: 60px;
+  }
+
+  .portfolio {
+    padding: 0 30px;
+  }
+
+  .gallery {
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+
+  .gallery li {
+    width: calc(50% - 10px);
+    display: inline-block;
+    margin: 5px;
+    vertical-align: top;
+  }
+
+  .contact {
+    width: 70%;
+    display: inline-block;
+  }
+
+  .footer-nav a {
+    display: inline-block;
+  }
+
+  .footer-nav a.top {
+    display: none;
+  }
+
+  .footer-nav-links {
+    float: right;
+  }
+
+  .footer-nav-links li {
+    display: inline-block;
+    padding: 21px;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .name {
+    float: left;
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+  .intro {
+    padding-bottom: 0;
+  }
+
+  .main-nav {
+    float: right;
+    display: inline-block;
+  }
+
+  .gallery li {
+    width: calc(33% - 10px);
+    display: inline-block;
+    margin: 5px;
+  }
+}
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after { /* Apply clearfix class to collapsing columns in html */
+  content: " ";
+  display: table;
+  clear: both;
+}
+
