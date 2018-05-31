@@ -13,8 +13,6 @@
      text-align: center;
      color: #4a4a4a;
      font-size: 18px;
-
-
  }
 
  .main-header,
@@ -51,12 +49,10 @@ h3 {
 a {
     color: #4a4a4a;
     text-decoration: none;
-
 }
 
 .profile-image {
     width: 62.5%;
-
 }
 
 
@@ -99,6 +95,7 @@ p {
 .footer-name {
     float: left;
 }
+
 .contact-list li {
     margin: 15px 0;
 }
@@ -135,7 +132,6 @@ p {
 .name {
     margin-top: 0;
     padding-top: 25px;
-
 }
 
 /* ---- Page Elements ---- */
@@ -179,6 +175,7 @@ p {
         width: calc(50% - 10px);
         display: inline-block;
         margin: 5px;
+        vertical-align: top;
     }
     .contact {
         width: 70%;
@@ -186,7 +183,6 @@ p {
     }
     .footer-nav a {
         display: inline-block;
-
     }
     .footer-nav a.top {
         display: none;
@@ -196,7 +192,7 @@ p {
     }
     .footer-nav-links li {
         display: inline-block;
-        padding: 15px;
+        padding: 21px;
         text-transform: uppercase;
     }
 }
@@ -206,12 +202,21 @@ p {
     .name {
         float: left;
         display: inline-block;
+        margin-left: 15px;
+    }
+
+    .intro {
+        padding-bottom: 0;
     }
     .main-nav {
         float: right;
         display: inline-block;
     }
-
+    .gallery li {
+        width: calc(33% - 10px);
+        display: inline-block;
+        margin: 5px;
+    }
 }
 
 
